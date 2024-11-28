@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Movies - BookMyShow</title>
+    <style>
+        /* Include the same styles as the original code for the discover page */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #ffffff;
+            color: #333;
+        }
+        .movies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .movie-card {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .movie-card img {
+            width: 100%;
+            height: auto;
+        }
+        .movie-card p {
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Discover Page -->
+    <div class="discover-section">
+        <h2>Latest Movies</h2>
+        <div class="movies-grid">
+            <!-- Dynamic movie cards will appear here -->
+            <div class="movie-card">
+                <img src="https://th.bing.com/th/id/OIP.la5RAS47wiucf6U5WTsMPwAAAA?rs=1&pid=ImgDetMain" alt="Movie 1">
+                <p>Movie 1</p>
+            </div>
+            <div class="movie-card">
+                <img src="https://th.bing.com/th/id/OIP.lpgBrtSlzMJqZCfy73AQZQHaLe?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 2">
+                <p>Movie 2</p>
+            </div>
+            <div class="movie-card">
+                <img src="https://th.bing.com/th/id/OIP.t49DnTF6P7NY-zacVmr74wAAAA?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 3">
+                <p>Movie 3</p>
+            </div>
+            <div class="movie-card">
+                <img src="https://th.bing.com/th/id/OIP.AgSfxzgBESunZmls_LsP_AHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 4">
+                <p>Movie 4</p>
+            </div>
+            <div class="movie-card">
+                <img src="https://th.bing.com/th/id/OIP.3cZf7hW1Y7LbrNW9oqd-rAHaJ4?w=136&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Movie 5">
+                <p>Movie 5</p>
+            </div>
+        </div>
